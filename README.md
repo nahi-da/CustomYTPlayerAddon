@@ -1,7 +1,6 @@
 # EmbedYTPlayerAddon
-YouTubeの埋め込みプレーヤーを埋め込む、Firefoxのアドオンです。
 
-Manifest V2で作ったのでChromeでは動かないと思います。
+YouTube の埋め込みプレーヤーを埋め込む、Firefox のアドオンです。
 
 ## 使い方 (Getting Started)
 
