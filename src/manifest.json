@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "EmbedYTPlayer",
+  "version": "1.1",
+
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/error"],
+      "js": ["page-eater.js"]
+    }
+  ]
+}
