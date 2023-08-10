@@ -22,7 +22,7 @@ os.chdir(os.path.dirname(__file__))
 # -------------------------------------------------------------------------------------------------
 
 CSS_PLAYPAUSE_BUTTON = '.ytp-large-play-button'
-Addon_Path = "../addon"
+Addon_Path = os.path.abspath("../addon")
 Addon_Install_Button = 'qa-temporary-extension-install-button'
 
 # -------------------------------------------------------------------------------------------------
