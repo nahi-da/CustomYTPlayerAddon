@@ -22,7 +22,7 @@ os.chdir(os.path.dirname(__file__))
 # -------------------------------------------------------------------------------------------------
 
 CSS_PLAYPAUSE_BUTTON = '.ytp-large-play-button'
-Addon_Path = "E:\\scripts\\Firefox_addon\\modify-page"
+Addon_Path = "../addon"
 Addon_Install_Button = 'qa-temporary-extension-install-button'
 
 # -------------------------------------------------------------------------------------------------
@@ -61,8 +61,8 @@ webdriver_path = 'geckodriver.exe'
 
 # Firefoxのオプションを設定してWebDriverを起動します
 options = Options()
-options.add_argument("-profile")
-options.add_argument("./profiles")
+# options.add_argument("-profile")
+# options.add_argument("../profiles")
 # options.add_argument("--headless")  # ヘッドレスモードで実行（GUIを表示しない）
 service = Service(executable_path=webdriver_path)
 driver = webdriver.Firefox(service=service, options=options)
