@@ -95,6 +95,7 @@ def install_addon():
     button.click()
 
     time.sleep(1)
+    autoit.win_wait("[CLASS:#32770]")
     autoit.control_click("[CLASS:#32770]", "Edit2")
     autoit.control_send("[CLASS:#32770]", "Edit2", Addon_Path)
     autoit.control_send("[CLASS:#32770]", "Edit2", "{ENTER}")
