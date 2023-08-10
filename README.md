@@ -32,8 +32,17 @@ const PlaylistId = 'ここを再生したいプレイリストのIDに変える'
 
 ```
 pip install selenium
+```
+
+```
 pip install pyautoit
+```
+
+```
 pip install urllib3
+```
+
+```
 pip install pynput
 ```
 
