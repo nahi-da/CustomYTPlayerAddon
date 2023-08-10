@@ -1,5 +1,5 @@
 // プレイリストのID（ここを再生したいIDに変えてください。）
-const PlaylistId = 'PL7PzVd63GwbJlssKH2V7Hx5GmF3dnFPqM';
+const PlaylistId = '書き換える部分';
 
 // エラーページにあるdiv要素を削除
 var rem_elem = document.getElementById('error-page');
