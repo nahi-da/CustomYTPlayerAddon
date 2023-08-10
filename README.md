@@ -13,6 +13,12 @@
 
 1. [ここ](https://github.com/nahi-da/EmbedYTPlayerAddon/archive/refs/heads/main.zip)からファイルをダウンロードする。
 2. ダウンロードしたファイルを解凍し、addon フォルダーの`page-eater.js`を開き、2 行目の`PlaylistId`の内容を、再生したいプレイリストの ID に書き換えておく。
+
+```javascript:./addon/page-eater.js
+// プレイリストのID（ここを再生したいIDに変えてください。）
+const PlaylistId = 'ここを再生したいプレイリストのIDに変える';
+```
+
 3. Firefox で`about:debugging`を開き、「この Firefox」をクリックする。または、Firefox で`about:debugging#/runtime/this-firefox`を開く。
 4. 「一時的なアドオンを読み込む」をクリックする。
 5. addon フォルダーのいずれかのファイルを選択する。
