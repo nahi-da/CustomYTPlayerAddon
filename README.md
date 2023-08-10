@@ -46,6 +46,6 @@ pip install urllib3
 pip install pynput
 ```
 
-2. （初回のみ）[ここ](https://github.com/mozilla/geckodriver/releases)から、最新の geckodriver をダウンロードし、`geckodriver.exe`を、python フォルダーに入れておく。
+2. （初回のみ）[ここ](https://github.com/mozilla/geckodriver/releases){:target="\_blank"}から、最新の geckodriver をダウンロードし、`geckodriver.exe`を、python フォルダーに入れておく。
 3. `run.py`を実行すると、Firefox が起動し、自動でアドオンがインストールされ、エラーページが開く。
 4. ブラウザを閉じた後、コンソールがしばらく残るが、終了処理を行っているだけなのでそのままにしておく。（コンソールを閉じると、終了処理が行われず、ブラウザのプロセスが残り続けます。）
